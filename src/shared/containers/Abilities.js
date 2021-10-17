@@ -2,13 +2,12 @@ import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import '../styles/abilities.scss'
 
-export const Ability = ({ name, value}) => {
+export const Abilities = ({ abilitiesObj }) => {
   return (
     null
   )
 }
 
-Ability.PropTypes = {
-  name: PropTypes.string,
-  value: PropTypes.number,
+Abilities.propTypes = {
+  abilitiesObj: PropTypes.object,
 }
