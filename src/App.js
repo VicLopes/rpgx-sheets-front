@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CharacterSheetPathfinder } from "./pages/CharacterSheet";
 
-export const App = ({ apiURL = "http://localhost:8080/pathfinder" }) => {
+export const App = ({ apiURL = "http://localhost:8080/api/pathfinder" }) => {
   const [err, setError] = useState(null);
   const [dataArray, setDataArray] = useState(null);
   const [loading, setLoading] = useState(true);
