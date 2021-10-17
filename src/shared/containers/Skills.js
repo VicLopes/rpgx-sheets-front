@@ -8,6 +8,6 @@ export const Skills = ({ skillsObj }) => {
   )
 }
 
-Skills.PropTypes = {
+Skills.propTypes = {
   skillsObj: PropTypes.object,
 }

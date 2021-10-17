@@ -5,32 +5,7 @@ import "../styles/characterSheet.scss";
 export const CharacterSheetPathfinder = ({ sheetData }) => {
   return (
     <div className="sheet-wrapper">
-      <section id="primary-data">
-        <p>
-          Name:
-          <span className="character-name">{sheetData.character_name}</span>
-        </p>
-        <p>
-          Player Name:
-          <span className="player-name">{sheetData.player.player_name}</span>
-        </p>
-        <p>
-          Level: <span className="level">{sheetData.level}</span>
-        </p>
-        <p>
-          Class: <span className="class">{sheetData.class}</span>
-        </p>
-        <p>
-          Armor Class:
-          <span className="armor-class">{sheetData.armor_class}</span>
-        </p>
-        <p>
-          Hit Points: <span className="hit-points">{sheetData.hit_points}</span>
-        </p>
-        <p>
-          Ancestry: <span className="ancestry">{sheetData.ancestry}</span>
-        </p>
-      </section>
+      {console.log(Object.keys(sheetData))}
       <section id="abilities">
         <p>
           Strength:
